@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.pinyougou</groupId>
-  <artifactId>pinyougou-parent</artifactId>
+  <groupId>com.ishop</groupId>
+  <artifactId>ishop-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   
@@ -274,12 +274,12 @@
 	</build>
   
 	<modules>
-		<module>pinyougou-pojo</module>
-		<module>pinyougou-dao</module>
-		<module>pinyougou-sellergoods-interface</module>
-		<module>pinyougou-sellergoods-service</module>
-		<module>pinyougou-manager-web</module>
-		<module>pinyougou-shop-web</module>
-		<module>pinyougou-common</module>
+		<module>ishop-pojo</module>
+		<module>ishop-dao</module>
+		<module>ishop-sellergoods-interface</module>
+		<module>ishop-sellergoods-service</module>
+		<module>ishop-manager-web</module>
+		<module>ishop-shop-web</module>
+		<module>ishop-common</module>
 	</modules>
 </project>
